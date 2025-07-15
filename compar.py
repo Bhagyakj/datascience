@@ -1,0 +1,11 @@
+import numpy as np
+x=np.array([22,3,60,4])
+y=np.array([1,5,60,4])
+print("first array",x)
+print("second array",y)
+print("A>B")
+print(np.greater(x,y))
+print("A>=B")
+print(np.greater_equal(x,y))
+print("A<B")
+print(np.less(x,y))
